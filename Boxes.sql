@@ -1,0 +1,17 @@
+CREATE TABLE Boxes (
+  Box INTEGER NOT NULL,
+  RoomID INTEGER NOT NULL,
+  ItemID INTEGER NOT NULL
+);
+
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (1,7,3);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (1,7,2);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (1,7,10);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (2,6,4);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (2,6,9);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (4,3,12);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (4,5,11);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (5,7,3);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (5,7,10);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (5,2,10);
+INSERT INTO Boxes (Box, RoomID, ItemID) VALUES (5,1,11);
